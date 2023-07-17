@@ -1,0 +1,407 @@
+
+@font-face {
+  font-family: "Space Semi-bold";
+  src: url("./Fonts/SpaceGrotesk-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Utendo Semi-bold";
+  src: url("./Fonts/UtendoSemibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Utendo Regular";
+  src: url("./Fonts/UtendoRegular.ttf") format("truetype");
+}
+
+body{
+  font-family: "Utendo Semi-Bold"
+}
+
+.carousel-div {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+}
+
+.basket-page-container {
+  margin-top: 2%;
+}
+
+.card-header {
+  text-align: left;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1201px) {
+  .game-card-body {
+  height: 250px;
+  max-height: 400px;
+  text-align: left;
+  padding: 4%;
+}
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-card-body {
+  height:150px;
+  max-height: 400px;
+  text-align: left;
+  padding: 4%;
+}
+  
+}
+
+
+.basket-card-body {
+  text-align: left;
+  padding: 4%;
+}
+
+.delete-button-basket {
+  text-align: right;
+}
+
+.card {
+  padding: 0%;
+}
+
+.game-card-title {
+  float: left;
+  max-width: 163px;
+  color: lightgrey;
+  position: relative;
+}
+
+.game-card-text-container{
+  font-family: 'Utendo Regular', sans-serif;
+}
+
+.game-card-text {
+  color: lightgrey;
+  position: relative;
+}
+
+.game-card-price{
+  float: right;
+  color: lightgrey;
+}
+
+.btn-outline-light {
+  position: absolute;
+  bottom: 10px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .game-card-text {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-card-text {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .game-card-price {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-card-id {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .game-card-title {
+    
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .game-card-price {
+    float: right;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .game-card-title {
+    float: left;
+  }
+}
+
+
+.game-card-header {
+  overflow: auto;
+}
+
+
+.basket-checkout-card-container{
+  float: right;
+  width: 500px;
+  max-width: 500px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color:darkslateblue
+}
+
+.bg-purp{
+ 
+  background: #0c0020;
+}
+
+body{
+  background: #1f143d;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.display-card-price{
+  border: solid 2px whitesmoke;
+  float: right;
+  padding: 2%;
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+}
+
+.display-card-title{
+  font-size: 3vw;
+  
+}
+
+.display-card-body{
+  padding: 5%;
+  color: whitesmoke;
+}
+
+.update-button{
+ margin-left: 1%;
+}
+
+.pass-label{
+
+  color: whitesmoke; 
+  
+}
+
+.pass-control{
+  max-width: 400px;
+}
+
+.error-message{
+  color: whitesmoke;
+}
+
+.display-card{
+  margin-bottom: 3%;
+  min-height: 530px;
+}
+
+.delete{
+  margin-left: 31%;
+  position: absolute;
+  bottom: 1%;
+}
+
+.display-card-body{
+  font-size: 2.3vw;
+  
+}
+
+.display-card-text{
+  font-family: 'Utendo Regular', sans-serif;
+  padding-right: 20%;
+}
+
+
+.text-muted{
+  float: left;
+  position: absolute;
+  bottom: 5%;
+  
+}
+
+
+
+.btn{
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+}
+
+.game-card:hover{
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.footer{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  bottom: 0%;
+  margin-top: 5%;
+  height: 150px;
+  background-color:#0c0020;
+  padding-top:4%;
+ 
+}
+
+.signature{
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  color: whitesmoke;
+  margin-left: 30%;
+  padding:1%;
+  max-width: 760px;
+  display: inline-block;
+  
+}
+
+.games-header{
+  box-shadow: 0 0 9px rgba(255,255,255,.7), inset 0 0 9px rgba(255,255,255,.7);
+  color: whitesmoke;
+  margin-left: 42.7%;
+  padding:1%;
+  max-width: 760px;
+  display: inline-block;
+}
+
+.slider-header{
+  box-shadow: 0 0 9px rgba(255,255,255,.7), inset 0 0 9px rgba(255,255,255,.7);
+  color: whitesmoke;
+  margin-left: 41%;
+  padding:1%;
+  max-width: 760px;
+  display: inline-block;
+}
+
+
+.carousel-div{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 15px rgba(255,255,255,.7);
+  margin-bottom: 5%;
+}
+
+.signature-container{
+  position: relative;
+}
+
+.games-header-container{
+  margin-bottom: 2%;
+  position: relative;
+}
+
+.slider-header-container{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  position: relative;
+}
+
+.signature-container::before, .signature-container::after{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  content: '';
+  position: absolute;
+  width: 30%;
+  height: 2px;
+  bottom: 50%;
+  z-index: 0;
+}
+
+.games-header-container::before, .games-header-container::after{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  content: '';
+  position: absolute;
+  width: 42.7%;
+  height: 2px;
+  bottom: 50%;
+  z-index: 0;
+}
+
+
+.slider-header-container::before, .slider-header-container::after{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  content: '';
+  position: absolute;
+  width: 41%;
+  height: 2px;
+  bottom: 50%;
+  z-index: 0;
+}
+
+body{
+  position: relative;
+  height: 100vh
+}
+
+.basket-game-card{
+  max-width: 57%;
+}
+.basket-game-card-price{
+  color: #0c0020;
+}
+
+.nav-item:hover{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+}
+
+.search-btn{
+  background-color: none;
+  box-shadow: none;
+}
+
+.container{
+  height: 100vh;
+}
+
+.navbar-container{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 0 0 9px rgba(255,255,255,.7);
+  
+}
+
+.display-game-card{
+  margin-top: 5%;
+}
+
+.pass-control{
+  margin-bottom: 5%;
+}
+
+
+
+.pass-label{
+  margin-left: 35%;
+  padding-bottom: 2%;
+}
+
+
+.pass-btn{
+  margin-left: 43%;
+}
+
+.form-container{
+  margin-top: 5%;
+  margin-left: 34%;
+  position: relative;
+  align-content: center;
+  height: 150px;
+  width: 400px;
+
+}
+
+.list-group{
+  height: 500px;
+}
+
+

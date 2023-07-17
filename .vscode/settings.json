@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "front-end-react",
+        "back-end-spring/src/main/java/com/fdmgroup"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
